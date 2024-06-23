@@ -468,7 +468,7 @@ ORDER BY
 ```
 ![image](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/top_channels_based_on_subscribe.png)
 
-2. Youtubers with the most videos uploaded<br>
+### 2. Youtubers with the most videos uploaded<br>
 Calculation breakdown<br>
 Campaign idea = sponsored video series
 
@@ -550,25 +550,25 @@ ORDER BY
 ```
 ![image](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/basedon_viedeos.png)
 
-3. Youtubers with the most views
+### 3. Youtubers with the most views
 Calculation breakdown
 Campaign idea = Influencer marketing
 
-a. Kidibli (Kinder Spielzeug Kanal)
+a. Kidibli (Kinder Spielzeug Kanal)<br>
 
 -average views per video = 11,320,000
 -Product cost = $5
 - Potential units sold per video = 11,320,000 x 2% conversion rate = 226,400 units sold
 - Potential revenue per video = 226,400x $5 = $1,132,000
 - Campaign cost (3-month contract) = $130,000
-- Net profit = $1,132,000- $130,000 = $1,002,000
+- Net profit = $1,132,000- $130,000 = $1,002,000<br>
 b. Kontor.TV
 -Average views per video = 2,670,000
 -Product cost = $5
 -Potential units sold per video = 2,670,000x 2% conversion rate = 53,400 units sold
 -Potential revenue per video = 53,400 x $5 = $267,000
 -Campaign cost (3-month contract) = $130,000
-- Net profit = $267,000 - $130,000 = $137000
+- Net profit = $267,000 - $130,000 = $137000<br>
 c. ArkivaShqip
 
 -Average views per video = 840,000
@@ -578,7 +578,58 @@ c. ArkivaShqip
 -Campaign cost (3-month contract) = $130,000
 -Net profit = $84,000- $130,000 = -$46000
 **Best option from category: Kidibli (Kinder Spielzeug Kanal)**
+### SQL Query
+```SQL
 
+/*
+# 1. Define variables
+# 2. Create a CTE that rounds the average views per video
+# 3. Select the columns you need and create calculated columns from existing ones
+# 4. Filter results by YouTube channels
+# 5. Sort results by net profits (from highest to lowest)
+*/
+
+
+
+-- 1.
+DECLARE @conversionRate FLOAT = 0.02;        -- The conversion rate @ 2%
+DECLARE @productCost MONEY = 5.0;            -- The product cost @ $5
+DECLARE @campaignCost MONEY = 130000.0;      -- The campaign cost @ $130,000
+
+
+
+-- 2.
+WITH ChannelData AS (
+    SELECT
+        channel_name,
+        total_views,
+        total_videos,
+        ROUND(CAST(total_views AS FLOAT) / total_videos, -4) AS avg_views_per_video
+    FROM [dbo].[view_German_youtubers_2024]
+)
+
+-- 3.
+SELECT
+    channel_name,
+    avg_views_per_video,
+    (avg_views_per_video * @conversionRate) AS potential_units_sold_per_video,
+    (avg_views_per_video * @conversionRate * @productCost) AS potential_revenue_per_video,
+    (avg_views_per_video * @conversionRate * @productCost) - @campaignCost AS net_profit
+FROM
+    ChannelData
+
+
+-- 4.
+WHERE
+    channel_name IN ('Kidibli (Kinder Spielzeug Kanal)', 'ArkivaShqip', 'Kontor.TV')
+	
+-- 5.
+ORDER BY
+    net_profit DESC;
+
+
+
+```
 
 ### Discovery
 (Your content here)
