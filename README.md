@@ -373,11 +373,20 @@ For this analysis, we're going to focus on the questions below to get the inform
 | marsgizmo    | 4,068,656,742     | 1308                       |
 
 ### 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
 | Channel Name         | Subscriber Engagement Rate per Video |
 |----------------------|-------------------------------------|
 | Jesus Motivation     | 3,570,000                           |
 | Mois D. King         | 150,714                             |
 | LEO ROJAS - official | 102,222                             |
+
+### Notes
+For this analysis, we'll prioritize analysing the metrics that are important in generating the expected ROI for our marketing client,<br>
+which are the YouTube channels with the most
+
+- subscribers
+- total views
+- videos uploaded
 
 ### Validation
 (Your content here)
