@@ -364,6 +364,21 @@ For this analysis, we're going to focus on the questions below to get the inform
 | MERO                  | 29,447,396              |
 | LEO ROJAS - official  | 28,832,447              |
 
+### 5. Which 3 channels have the highest views per subscriber ratio?
+
+| Channel Name | Total Subscribers | Views per Subscriber Ratio |
+|--------------|-------------------|----------------------------|
+| ArkivaShqip  | 7,462,319,450     | 1654                       |
+| PietSmiet    | 3,610,318,449     | 1461                       |
+| marsgizmo    | 4,068,656,742     | 1308                       |
+
+### 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+| Channel Name         | Subscriber Engagement Rate per Video |
+|----------------------|-------------------------------------|
+| Jesus Motivation     | 3,570,000                           |
+| Mois D. King         | 150,714                             |
+| LEO ROJAS - official | 102,222                             |
+
 ### Validation
 (Your content here)
 
