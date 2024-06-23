@@ -466,8 +466,7 @@ ORDER BY
 	net_profit DESC;
 
 ```
-
-
+![image](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/top_channels_based_on_subscribe.png)
 
 ### Discovery
 (Your content here)
