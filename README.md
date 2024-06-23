@@ -248,7 +248,8 @@ This shows the Top Germany Youtubers in 2024 so far.
 
 ### DAX Measures
 ### 1. Total Subscribers (M)
-```DAXTotal Subscribers (M) = 
+```DAX
+Total Subscribers (M) = 
 VAR million = 1000000
 VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
 VAR totalSubscribers = DIVIDE(sumOfSubscribers,million)
