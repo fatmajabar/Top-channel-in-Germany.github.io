@@ -336,10 +336,7 @@ For this analysis, we're going to focus on the questions below to get the inform
 | 8    | Rammstein Official               | 8.16            |
 | 9    | COLORS                           | 7.52            |
 | 10   | TikTokTunes                      | 6.79            |
-| 11   | TheFatRat                        | 6.46            |
-| 12   | Kontor.TV                        | 6.26            |
-| 13   | Julien Bam                       | 6.16            |
-| 14   | Ali Omar                         | 5.90            |
+
 
 ### 2. Which 3 channels have uploaded the most videos?
 
