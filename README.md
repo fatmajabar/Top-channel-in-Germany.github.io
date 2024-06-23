@@ -78,7 +78,7 @@ We need data on the top Germany YouTubers in 2024 that includes their
 
 ## Design
 ### Mockup
-[imag](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/blob/main/assets/images/dashboard_design.png)
+![Dashboard Design](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/dashboard_design.png)
 
 ### Tools
 (Your content here)
