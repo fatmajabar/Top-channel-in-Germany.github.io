@@ -418,6 +418,55 @@ c. Haerte Test
 - Net profit = $212,000 - $50,000 = $162,000<br>
 **Best option from category: Kidibli (Kinder Spielzeug Kanal)**
 
+### SQL Query
+``` sql
+
+  /*
+  1. Define the variables 
+  2. create a CTE rounds the average per video 
+  3. select the column that are required for the analysis 
+  4. filter the results by the YouTube channels with the highest subscriber bases
+  5. order by net_profit (from highest to lowest)
+  */
+
+-- 1. Define the variables 
+DECLARE @conversionRate FLOAT;
+DECLARE @productCost MONEY;
+DECLARE @campaignCost MONEY;
+
+-- Set the variable values
+SET @conversionRate = 0.02;    -- THE conversion Rate @ 2%
+SET @productCost = 5.0;        -- THE product Cost @ 5$
+SET @campaignCost = 50000.0;   -- THE campaign Cost $50,000
+
+-- 2. create a CTE rounds the average per video 
+WITH ChannelData AS (
+	SELECT
+		[channel_name],
+		[total_views],
+		[total_videos],
+		ROUND((CAST([total_views] AS FLOAT) / [total_videos]), -4) AS rounded_avg_views_per_video
+	FROM 
+		[dbo].[view_German_youtubers_2024]
+)
+-- 3. select the columns that are required for the analysis 
+-- 4. filter the results by the YouTube channels with the highest subscriber bases
+-- 5. order by net_profit (from highest to lowest)
+SELECT 
+	[channel_name],
+	rounded_avg_views_per_video,
+    (rounded_avg_views_per_video * @conversionRate) AS Potential_Product_sales_per_video,
+	(rounded_avg_views_per_video * @conversionRate * @productCost) AS Potential_Product_revenue_per_video,
+	((rounded_avg_views_per_video * @conversionRate * @productCost) - @campaignCost) AS net_profit
+FROM 
+	ChannelData
+WHERE 
+	[channel_name] IN ('Kidibli (Kinder Spielzeug Kanal)', 'Dhruv Rathee', 'HaerteTest')
+ORDER BY 
+	net_profit DESC;
+
+```
+
 
 
 ### Discovery
