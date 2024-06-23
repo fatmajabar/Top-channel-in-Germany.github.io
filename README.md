@@ -399,14 +399,15 @@ a. Kidibli (Kinder Spielzeug Kanal)
 - Potential units sold per video = 11320000 x 2% conversion rate = 226400 units sold
 - Potential revenue per video = 226400 x $5 = 1,132,000
 - Campaign cost (one-time fee) = $50,000
-- Net profit = $1132000 - $50,000 = $1,082,000
+- Net profit = $1132000 - $50,000 = $1,082,000<br>
+
 b. Dhruv Rathee
 - Average views per video = 4,680,000
 - Product cost = $5
 - Potential units sold per video = 4,680,000 x 2% conversion rate = 93,600 units sold
 - Potential revenue per video = 93,600 x $5 = $468,000
 - Campaign cost (one-time fee) = $50,000
-- Net profit = $468,000- $50,000 = $418,000
+- Net profit = $468,000- $50,000 = $418,000<br>
 c. Haerte Test
 
 - Average views per video = 2,120,000
@@ -414,7 +415,7 @@ c. Haerte Test
 - Potential units sold per video = 2,120,000 x 2% conversion rate = 42,400 units sold
 - Potential revenue per video = 42,400 x $5 = $212,000
 - Campaign cost (one-time fee) = $50,000
-- Net profit = $212,000 - $50,000 = $162,000
+- Net profit = $212,000 - $50,000 = $162,000<br>
 **Best option from category: Kidibli (Kinder Spielzeug Kanal)**
 
 
