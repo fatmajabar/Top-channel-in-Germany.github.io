@@ -581,7 +581,8 @@ c. ArkivaShqip<br>
 - Net profit = $84,000- $130,000 = -$46000<br>
 **Best option from category: Kidibli (Kinder Spielzeug Kanal)**
 ### SQL Query
-``` SQL
+
+```sql
 
 /*
 # 1. Define variables
@@ -628,6 +629,7 @@ WHERE
 -- 5.
 ORDER BY
     net_profit DESC;
+
 
 
 ```
