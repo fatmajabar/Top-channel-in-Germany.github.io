@@ -70,7 +70,11 @@ We need data on the top Germany YouTubers in 2024 that includes their
 
 
 ## Stages
-(Your content here)
+
+- Design
+- Developement
+- Testing
+- Analysis
 
 ## Design
 ### Mockup
