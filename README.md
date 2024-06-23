@@ -160,12 +160,37 @@ And here is a tabular representation of the expected schema for the clean data:
    - what column do I need ?
 	 - channel_name,total_subscribers,total_views,total_videos 
 2. Remove last 5 Rows
-### Data Exploration
-(Your content here)
 
-### Data Cleaning
-(Your content here)
+``` sql
+ /*
+Data cleaning steps:-
+1. remove the unnecessary columns by oly selecting the ones we need
+    - what column i need ?
+    - [channel_name],[total_subscribers],[total_views],[total_videos]
+2. I noticed there is some null in information for the last  4 channels , 
+i will rmove them 
 
+*/
+
+--1.
+ SELECT  TOP 95
+CAST ([channel_name] AS varchar(200) ) AS channel_name
+      ,[total_subscribers]
+      ,[total_views]
+      ,[total_videos]
+  FROM [youtube_db].[dbo].[updated_youtube_data_germany]
+  ;
+2. creat view:
+
+CREATE view view_German_youtubers_2024 as 
+SELECT  TOP 95
+CAST ([channel_name] AS varchar(200) ) AS channel_name
+      ,[total_subscribers]
+      ,[total_views]
+      ,[total_videos]
+  FROM [youtube_db].[dbo].[updated_youtube_data_germany]
+  ;
+```
 ### Transform the Data
 (Your content here)
 
