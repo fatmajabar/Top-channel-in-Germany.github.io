@@ -585,7 +585,7 @@ c. ArkivaShqip<br>
 **Best option from category: Kidibli (Kinder Spielzeug Kanal)**<br>
 ### SQL Query<br>
 
-```sql
+```SQL
 
 /*
 # 1. Define variables
