@@ -243,7 +243,7 @@ FROM
 
 ## Visualization
 ### Results
-![Dashboard](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/ashboard.gif)
+![Dashboard](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/dashboard.gif)
 
 ### DAX Measures
 (Your content here)
