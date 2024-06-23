@@ -497,9 +497,12 @@ b. Yogscast
 - Campaign cost (11-videos @ $5,000 each) = $55,000
 - Net profit = $6,000 - $55,000 = $49000(potential loss)<br>
 **Best option from category: to not invest with any channel based on the number of videos uploaded if you want to maximize the profit<br>
-, all these channels make a loss.** 
+, all these channels make a loss.** <br>
+
 ### SQL Query
+
 ```sql
+
 /* 
 # 1. Define variables
 # 2. Create a CTE that rounds the average views per video
@@ -579,8 +582,8 @@ c. ArkivaShqip<br>
 - Potential revenue per video = 16,800 x $5 = $84,000
 - Campaign cost (3-month contract) = $130,000
 - Net profit = $84,000- $130,000 = -$46000<br>
-**Best option from category: Kidibli (Kinder Spielzeug Kanal)**
-### SQL Query
+**Best option from category: Kidibli (Kinder Spielzeug Kanal)**<br>
+### SQL Query<br>
 
 ```sql
 
@@ -629,8 +632,6 @@ WHERE
 -- 5.
 ORDER BY
     net_profit DESC;
-
-
 
 ```
 ![image](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/on_views.png)
