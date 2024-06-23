@@ -321,7 +321,25 @@ For this analysis, we're going to focus on the questions below to get the inform
 4. Which 3 channels have the highest average views per video?
 5. Which 3 channels have the highest views per subscriber ratio?
 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+   
+### 1. Who are the top 10 YouTubers with the most subscribers?
 
+| Rank | Channel Name                     | Subscribers (M) |
+|------|----------------------------------|-----------------|
+| 1    | Kidibli (Kinder Spielzeug Kanal) | 26.40           |
+| 2    | Dhruv Rathee                     | 22.40           |
+| 3    | HaerteTest                       | 19.60           |
+| 4    | Ice Cream Rolls                  | 12.30           |
+| 5    | Pamela Reif                      | 9.97            |
+| 6    | The Voice Kids                   | 8.95            |
+| 7    | freekickerz                      | 8.58            |
+| 8    | Rammstein Official               | 8.16            |
+| 9    | COLORS                           | 7.52            |
+| 10   | TikTokTunes                      | 6.79            |
+| 11   | TheFatRat                        | 6.46            |
+| 12   | Kontor.TV                        | 6.26            |
+| 13   | Julien Bam                       | 6.16            |
+| 14   | Ali Omar                         | 5.90            |
 
 
 
