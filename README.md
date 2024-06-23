@@ -99,9 +99,10 @@ Some of the data visuals that may be appropriate in answering our questions incl
 ![Dashboard Design](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/dashboard_design.png)
 
 ### Tools
-| Tool         | Purpose                                             |
-|--------------|-----------------------------------------------------|
-| Excel        | Exploring the data                                  |
+
+| Tool             |  Purpose |
+|------------------|----------|
+|| Excel        | Exploring the data     |
 | SQL Server   | Cleaning, testing, and analyzing the data            |
 | Power BI     | Visualizing the data via interactive dashboards      |
 | GitHub       | Hosting the project documentation and version control|
@@ -211,7 +212,7 @@ Here are the data quality tests conducted:<br>
   WHERE TABLE_NAME = 'view_German_youtubers_2024';
 ```
 ### Output 
-![column_check](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/blob/main/assets/images/count_columns.png)
+![column_check](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/count_columns.png)
 ##  data type check 
 ### SQL Query 
 ``` sql
@@ -222,7 +223,8 @@ FROM
   WHERE TABLE_NAME = 'view_German_youtubers_2024';
 ```
 ### Output
-![data_type_check](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/blob/main/assets/images/data_type_check.png)
+![data_type_check](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/data_type_check.png)
+
 ## Duplicate count check  
 ### SQL Query 
 ``` sql
@@ -238,7 +240,8 @@ FROM
   ;
 ```
 ### Output
-![dup;icate](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/blob/main/assets/images/douplicate_check.png)
+![dupicate](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/douplicate_check.png)
+
 ## Visualization
 ### Results
 (Your content here)
