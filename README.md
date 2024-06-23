@@ -191,15 +191,53 @@ CAST ([channel_name] AS varchar(200) ) AS channel_name
   FROM [youtube_db].[dbo].[updated_youtube_data_germany]
   ;
 ```
-### Transform the Data
-(Your content here)
 
-### Create the SQL View
-(Your content here)
 
 ## Testing
-### Data Quality Tests
-(Your content here)
+What data quality and validation checks are you going to create?
+Here are the data quality tests conducted:<br>
+## Row count check
+``` sql
+ SELECT COUNT(*) AS coount_data
+   FROM [youtube_db].[dbo].[view_German_youtubers_2024];
+
+```
+### Output
+
+## column count check
+### SQL Query 
+``` sql
+ select COUNT(*) AS count_tables FROM INFORMATION_SCHEMA.COLUMNS
+  WHERE TABLE_NAME = 'view_German_youtubers_2024';
+```
+### Output 
+
+##  data type check 
+### SQL Query 
+``` sql
+ 
+ SELECT COLUMN_NAME, DATA_TYPE
+FROM
+  INFORMATION_SCHEMA.COLUMNS 
+  WHERE TABLE_NAME = 'view_German_youtubers_2024';
+```
+### Output
+
+## Duplicate count check  
+### SQL Query 
+``` sql
+  
+
+  with dup_count as (select [channel_name],
+  count(*) as douplicat_coutn
+  from [dbo].[view_German_youtubers_2024]
+  group by [channel_name])
+
+  select * from dup_count 
+  where douplicat_coutn >1;
+  ;
+```
+### Output
 
 ## Visualization
 ### Results
