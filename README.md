@@ -468,6 +468,87 @@ ORDER BY
 ```
 ![image](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/top_channels_based_on_subscribe.png)
 
+2. Youtubers with the most videos uploaded<br>
+Calculation breakdown<br>
+Campaign idea = sponsored video series
+
+a.PietSmiet
+- Average views per video = 130,000
+- Product cost = $5
+- Potential units sold per video = 130,000 x 2% conversion rate = 2,600 units sold
+- Potential revenue per video = 2,600 x $5= $1,3000
+- Campaign cost (11-videos @ $5,000 each) = $55,000
+- Net profit = $1,3000 - $55,000 = -$42000 (potential loss)<br>
+
+b. DW News
+- Average views per video = 70,000
+- Product cost = $5
+- Potential units sold per video = 70,000 x 2% conversion rate = 1,400 units sold
+- Potential revenue per video = 1,400 x $5= $7,000
+- Campaign cost (11-videos @ $5,000 each) = $55,000
+- Net profit = $7,000- $55,000 = -$48000 (potential loss)
+
+b. Yogscast
+
+- Average views per video = 60,000
+- Product cost = $5
+- Potential units sold per video = 60,000x 2% conversion rate = 1,200units sold
+- Potential revenue per video = 1,200 x $5= $6,000
+- Campaign cost (11-videos @ $5,000 each) = $55,000
+- Net profit = $6,000 - $55,000 = $49000(potential loss)<br>
+**Best option from category: to not invest with any channel based on the number of videos uploaded if you want to maximize the profit<br>
+, all these channels make a loss.** 
+### SQL Query
+```sql
+/* 
+# 1. Define variables
+# 2. Create a CTE that rounds the average views per video
+# 3. Select the columns you need and create calculated columns from existing ones
+# 4. Filter results by YouTube channels
+# 5. Sort results by net profits (from highest to lowest)
+*/
+
+
+-- 1.
+DECLARE @conversionRate FLOAT = 0.02;           -- The conversion rate @ 2%
+DECLARE @productCost FLOAT = 5.0;               -- The product cost @ $5
+DECLARE @campaignCostPerVideo FLOAT = 5000.0;   -- The campaign cost per video @ $5,000
+DECLARE @numberOfVideos INT = 11;               -- The number of videos (11)
+
+
+-- 2.
+WITH ChannelData AS (
+    SELECT
+        channel_name,
+        total_views,
+        total_videos,
+        ROUND((CAST(total_views AS FLOAT) / total_videos), -4) AS rounded_avg_views_per_video
+    FROM 
+	[dbo].[view_German_youtubers_2024]
+)
+
+
+-- 3.
+SELECT
+    channel_name,
+    rounded_avg_views_per_video,
+    (rounded_avg_views_per_video * @conversionRate) AS potential_units_sold_per_video,
+    (rounded_avg_views_per_video * @conversionRate * @productCost) AS potential_revenue_per_video,
+    ((rounded_avg_views_per_video * @conversionRate * @productCost) - (@campaignCostPerVideo * @numberOfVideos)) AS net_profit
+FROM
+    ChannelData
+
+
+-- 4.
+WHERE
+    channel_name IN ('DW Español', 'DW News', 'PietSmiet ')
+
+
+-- 5.
+ORDER BY
+    net_profit DESC;
+```
+
 ### Discovery
 (Your content here)
 
