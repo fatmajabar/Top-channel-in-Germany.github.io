@@ -637,7 +637,12 @@ ORDER BY
 ![image](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/on_views.png)
 
 ### Discovery
-(Your content here)
+What did we learn?<br>
+## We discovered that
+
+1. Kidibli (Kinder Spielzeug Kanal), Dhruv Rathee and HaerteTest are the channnels with the most subscribers in the Germany 
+2.DW Español, DW News and PietSmiet are the channels with the most videos uploaded
+3. Kidibli (Kinder Spielzeug Kanal), ArkivaShqip and Kontor.TV are the channels with the most views
 
 ## Recommendations
 ### Potential ROI
