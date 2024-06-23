@@ -347,6 +347,14 @@ For this analysis, we're going to focus on the questions below to get the inform
 | DW Español   | 41689        |
 | DW News      | 34696        |
 | PietSmiet    | 27810        |
+### 3. Which 3 channels have the most views?
+
+| Channel Name                         | Total Views    |
+|--------------------------------------|----------------|
+| Kidibli (Kinder Spielzeug Kanal)     | 13,513,446,607 |
+| ArkivaShqip                          | 7,462,319,450  |
+| Kontor.TV                            | 6,975,459,622  |
+
 
 
 
