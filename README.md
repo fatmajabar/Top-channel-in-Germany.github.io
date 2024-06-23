@@ -203,8 +203,7 @@ Here are the data quality tests conducted:<br>
 
 ```
 ### Output
-![row_check](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/blob/main/assets/images/count_row.png)
-
+![row_check](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/count_row.png)
 ## column count check
 ### SQL Query 
 ``` sql
