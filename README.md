@@ -342,11 +342,11 @@ For this analysis, we're going to focus on the questions below to get the inform
 
 
 
-| Channel Name        | Total Videos    |
-|---------------------|----------------|
-| DW Español     | 41689 |
-|  DW News      | 34696   |
-|PietSmiet   | 27810     |
+| Channel Name | Total Videos    |
+|--------------|---------------- |
+| DW Español   | 41689       	 |
+| DW News      | 34696   	 |
+| PietSmiet    | 27810    	 |
 
 ### 3. Which 3 channels have the most views?
 
