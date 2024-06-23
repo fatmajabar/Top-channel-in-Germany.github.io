@@ -356,8 +356,13 @@ For this analysis, we're going to focus on the questions below to get the inform
 | ArkivaShqip                          | 7,462,319,450  |
 | Kontor.TV                            | 6,975,459,622  |
 
+### 4. Which 3 channels have the highest average views per video?
 
-
+| Channel Name          | Average Views per Video |
+|-----------------------|-------------------------|
+| Rammstein Official    | 37,775,905              |
+| MERO                  | 29,447,396              |
+| LEO ROJAS - official  | 28,832,447              |
 
 ### Validation
 (Your content here)
