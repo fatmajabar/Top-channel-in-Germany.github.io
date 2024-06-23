@@ -556,27 +556,29 @@ Campaign idea = Influencer marketing
 
 a. Kidibli (Kinder Spielzeug Kanal)<br>
 
--average views per video = 11,320,000
--Product cost = $5
+- average views per video = 11,320,000
+- Product cost = $5
 - Potential units sold per video = 11,320,000 x 2% conversion rate = 226,400 units sold
 - Potential revenue per video = 226,400x $5 = $1,132,000
 - Campaign cost (3-month contract) = $130,000
-- Net profit = $1,132,000- $130,000 = $1,002,000<br>
-b. Kontor.TV
--Average views per video = 2,670,000
--Product cost = $5
--Potential units sold per video = 2,670,000x 2% conversion rate = 53,400 units sold
--Potential revenue per video = 53,400 x $5 = $267,000
--Campaign cost (3-month contract) = $130,000
-- Net profit = $267,000 - $130,000 = $137000<br>
-c. ArkivaShqip
+- Net profit = $1,132,000- $130,000 = $1,002,000 <br>
 
--Average views per video = 840,000
--Product cost = $5
--Potential units sold per video = 840,000 x 2% conversion rate =16,800 units sold
--Potential revenue per video = 16,800 x $5 = $84,000
--Campaign cost (3-month contract) = $130,000
--Net profit = $84,000- $130,000 = -$46000
+b. Kontor.TV<br>
+- Average views per video = 2,670,000
+- Product cost = $5
+- Potential units sold per video = 2,670,000x 2% conversion rate = 53,400 units sold
+- Potential revenue per video = 53,400 x $5 = $267,000
+- Campaign cost (3-month contract) = $130,000
+- Net profit = $267,000 - $130,000 = $137000 <br>
+
+c. ArkivaShqip<br>
+
+- Average views per video = 840,000
+- Product cost = $5
+- Potential units sold per video = 840,000 x 2% conversion rate =16,800 units sold
+- Potential revenue per video = 16,800 x $5 = $84,000
+- Campaign cost (3-month contract) = $130,000
+- Net profit = $84,000- $130,000 = -$46000<br>
 **Best option from category: Kidibli (Kinder Spielzeug Kanal)**
 ### SQL Query
 ```SQL
