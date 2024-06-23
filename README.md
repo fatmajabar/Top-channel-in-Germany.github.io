@@ -102,7 +102,14 @@ Some of the data visuals that may be appropriate in answering our questions incl
 ![Dashboard Design](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/dashboard_design.png)
 
 ### Tools
-(Your content here)
+| Tool         | Purpose                                             |
+|--------------|-----------------------------------------------------|
+| Excel        | Exploring the data                                  |
+| SQL Server   | Cleaning, testing, and analyzing the data            |
+| Power BI     | Visualizing the data via interactive dashboards      |
+| GitHub       | Hosting the project documentation and version control|
+| Mokkup AI    | Designing the wireframe/mockup of the dashboard      |
+
 
 ## Development
 ### Pseudocode
