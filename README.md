@@ -243,7 +243,7 @@ FROM
 
 ## Visualization
 ### Results
-![Dashboard](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/dashboard.gif)
+![Dashboard](https://github.com/fatmajabar/Top-channel-in-Germany.github.io/raw/main/assets/images/dashboard.gif)<br>
 This shows the Top Germany Youtubers in 2024 so far.
 
 ### DAX Measures
