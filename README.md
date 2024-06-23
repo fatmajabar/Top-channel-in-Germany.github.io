@@ -341,7 +341,15 @@ For this analysis, we're going to focus on the questions below to get the inform
 | 13   | Julien Bam                       | 6.16            |
 | 14   | Ali Omar                         | 5.90            |
 
+### 2. Which 3 channels have uploaded the most videos?
 
+
+
+| Channel Name | Total Videos |
+|--------------|--------------|
+| DW Español   | 41689        |
+| DW News      | 34696        |
+| PietSmiet    | 27810        |
 
 
 
