@@ -662,7 +662,7 @@ The top 3 channels to form collaborations with are Kidibli (Kinder Spielzeug Kan
 1. Based on our analysis, we believe the best channel to advance a long-term partnership deal with to promote the client's products is the Kidibli (Kinder Spielzeug Kanal )  channel.
 2. We'll have conversations with the marketing client to forecast what they also expect from this collaboration.
  Once we observe we're hitting the expected milestones, we'll advance with potential partnerships with Dhruv Rathee,and Haerte Test  channels in the future.<br>
- ### What steps do we take to implement the recommended decisions effectively?
+### What steps do we take to implement the recommended decisions effectively?
 - Reach out to the teams behind each of these channels, starting with Kidibli (Kinder Spielzeug Kanal ). Negotiate contracts within the budgets allocated to each marketing campaign
 - Kick off the campaigns and track each of their performances against the KPIs
 - Review how the campaigns have gone, gather insights and optimize based on feedback from converted customers and each channel's audiences
