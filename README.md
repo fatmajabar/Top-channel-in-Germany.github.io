@@ -649,18 +649,20 @@ What did we learn?<br>
 1.  Kidibli (Kinder Spielzeug Kanal) is the best YouTube channel to collaborate with if we want to maximize visbility because this channel has the most YouTube subscribers in the Germany. 
 2.  Although DW Español, DW News and PietSmiet are regular publishers on YouTube, it may be worth considering whether collaborating with them with the current budget caps are worth the effort, as the potential return on investments is significantly lower compared to the other channels.
 3.  Kidibli (Kinder Spielzeug Kanal)  is the best YouTuber to collaborate with if we're interested in maximizing reach, but collaborating with ArkivaShqip and  Kontor.TV may be better long-term options considering the fact that they both have large averaging significantly high number of views.<br>
-The top 3 channels to form collaborations with are Kidibli (Kinder Spielzeug Kanal), Dhruv Rathee, and HaerteTest. Based on this analysis, these channels attract the most consistent engagement and provide potential profits. On the other hand, consider avoiding channels like DW Español, DW News, and PietSmiet, as this will save you money. 😀
+The top 3 channels to form collaborations with are Kidibli (Kinder Spielzeug Kanal), Dhruv Rathee, and HaerteTest. Based on this analysis, these channels attract the most consistent engagement and provide potential profits. On the other hand, consider avoiding channels like DW Español, DW News, and PietSmiet, as this will save you money. 😀<br>
+
 ### Potential ROI
 **What ROI do we expect if we take this course of action?**
 - Setting up a collaboration deal with Kidibli (Kinder Spielzeug Kanal ) would make the client a net profit of $ 1,002,000  per video
 -  An influencer marketing contract with Dhruv Rathee can see the client generate a net profit of $418,000
-- if we go with a product placement campaign with Haerte Test, this could generate the client approximately $162,000 per video.
+- if we go with a product placement campaign with Haerte Test, this could generate the client approximately $162,000 per video.<br>
+
 ### Action plan
 **What course of action should we take and why?**
 1. Based on our analysis, we believe the best channel to advance a long-term partnership deal with to promote the client's products is the Kidibli (Kinder Spielzeug Kanal )  channel.
 2. We'll have conversations with the marketing client to forecast what they also expect from this collaboration.
  Once we observe we're hitting the expected milestones, we'll advance with potential partnerships with Dhruv Rathee,and Haerte Test  channels in the future.<br>
-**What steps do we take to implement the recommended decisions effectively?** 
+ ### What steps do we take to implement the recommended decisions effectively?
 - Reach out to the teams behind each of these channels, starting with Kidibli (Kinder Spielzeug Kanal ). Negotiate contracts within the budgets allocated to each marketing campaign
 - Kick off the campaigns and track each of their performances against the KPIs
 - Review how the campaigns have gone, gather insights and optimize based on feedback from converted customers and each channel's audiences
